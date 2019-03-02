@@ -1,7 +1,9 @@
 # AnagramApp
 
 compile:
+
 `javac src/AnagramApp.java -d bin`
 
-run:
-`java bin/AnagramApp <fullPathToDictionaryFile> <wordToFindAnagramsFor>`
+run (in bin directory):
+
+`java AnagramApp <fullPathToDictionaryFile> <wordToFindAnagramsFor>`
